@@ -10,7 +10,7 @@
 body,h1 {font-family: "Montserrat", sans-serif}
 img {margin-bottom: -7px}
 .w3-row-padding img {margin-bottom: 12px}
-header{display: flex; width:2560px;}
+
 
 * {box-sizing:border-box}
 
@@ -91,7 +91,7 @@ header{display: flex; width:2560px;}
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: white;
   padding: 20px 10px;
 }
 
@@ -142,66 +142,30 @@ header{display: flex; width:2560px;}
   }
 }
 
- /* Fading animation */
-/*.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}*/
 </style>
 <body>
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="file:///Users/jaredhawkins/Desktop/hawkedits/index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
-    <a href="file:///Users/jaredhawkins/Desktop/hawkedits/about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-    <a href="file:///Users/jaredhawkins/Desktop/hawkedits/purchase.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Purchase an Edit</a>
-    <a href="file:///Users/jaredhawkins/Desktop/hawkedits/gallery.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Gallery</a>
-    <a href="file:///Users/jaredhawkins/Desktop/hawkedits/contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
-  </div>
-</nav>
+
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-content" style="max-width:1500px">
 
   <!-- Header -->
  
-  <!--<div width="100%" height="auto">
-    
- 
-<header>
-   <div><img src="logo.jpg" height="100%" width="100%"></div>
-  <div style="margin-top:50px"><h1><b>Hawkedits</b></h1>
-   <p><b>@hawkedits_ on Instagram</b></p></div>
-   <p style="margin-top:90px; margin-left:50px;"><button class="w3-button w3-black" onclick="location.href='https://www.instagram.com/hawkedits_/?hl=en';">Instagram</button></p>
-   <p style="margin-top:90px; margin-left:50px;"><button class="w3-button w3-black" onclick="location.href='file:///Users/jaredhawkins/Desktop/hawkedits/purchase.html';">Purchase an Edit</button></p>
-   <span class="w3-button w3-xxlarge w3-white w3-right" style="margin-top:60px;" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-</header>
-<!--  </div>
-  <div class="w3-row w3-center" id="myGrid" style="margin-bottom:128px; margin-top:25px;>
-    <div class="w3-third" style="animation-name:front-edit"><img class="w3-center" src="2.jpg" width="100%" height="auto"<div> <div>-->
-
 <div class="header">
-  <a href="#default" class="logo">CompanyLogo</a>
+  <img src="logo.jpg" height="15%" width="15%" style="float:left">
+  <div>
+    <h1 class="logo" style="margin-top:3%">Hawkedits</h1>
+    <a href="https://www.instagram.com/hawkedits_/?hl=en';">@hawkedits_ on Instagram<a>
+  </div>
   <div class="header-right">
-    <a class="active" href="#home">Home</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a class="active" href="file:///Users/jaredhawkins/Desktop/hawkedits/index.html">Home</a>
+    <a href="file:///Users/jaredhawkins/Desktop/hawkedits/purchase.html">Purchase an Edit</a>
+    <a href="https://www.instagram.com/hawkedits_/?hl=en';">Instagram</a>
+    <a href="file:///Users/jaredhawkins/Desktop/hawkedits/about.html">About</a>
+    <a href="file:///Users/jaredhawkins/Desktop/hawkedits/gallery.html">Gallery</a>
+    <a href="file:///Users/jaredhawkins/Desktop/hawkedits/contact.html">Contact</a>
   </div>
 </div>
 
@@ -242,35 +206,7 @@ header{display: flex; width:2560px;}
 
 
 
-<!-- Photo Grid -->
-<!--<div class="w3-row" id="myGrid" style="margin-bottom:128px">
-  <div class="w3-third">
-    <img src="download.jpg">
-    <img src="download-1.jpg" style="width:100%">
-    <img src="download-2.jpg" style="width:100%">
-    <img src="download-3.jpg" style="width:100%">
-    <img src="download-4.jpg" style="width:100%">
-    <img src="download-5.jpg" style="width:100%">
-  </div>
 
-  <div class="w3-third">
-    <img src="download-6.jpg" style="width:100%">
-    <img src="/w3images/bridge.jpg" style="width:100%">
-    <img src="/w3images/notebook.jpg" style="width:100%">
-    <img src="/w3images/london.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/avatar_g.jpg" style="width:100%">
-  </div>
-
-  <div class="w3-third">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/workbench.jpg" style="width:100%">
-    <img src="/w3images/gondol.jpg" style="width:100%">
-    <img src="/w3images/skies.jpg" style="width:100%">
-    <img src="/w3images/lights.jpg" style="width:100%">
-    <img src="/w3images/workshop.jpg" style="width:100%">
-  </div>
-</div>-->
 <!-- End Page Content -->
 </div>
 
@@ -295,20 +231,6 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 
-/* var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-  }*/
 
   var slideIndex = 1;
 showSlides(slideIndex);
