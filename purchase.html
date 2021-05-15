@@ -12,7 +12,7 @@ img {margin-bottom: -7px}
 .w3-row-padding img {margin-bottom: 12px}
 .header {
   overflow: hidden;
-  background-color: white;
+  background-color: #f1f1f1;
   padding: 20px 10px;
 }
 
@@ -62,6 +62,22 @@ img {margin-bottom: -7px}
     float: none;
   }
 }
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 </style>
 <body>
 
@@ -72,7 +88,7 @@ img {margin-bottom: -7px}
 
   <!-- Header -->
 <div class="header">
-  <img src="logo.jpg" height="15%" width="15%" style="float:left">
+  <img src="logo.png" height="15%" width="15%" style="float:left">
   <div>
     <h1 class="logo" style="margin-top:3%">Purchase an Edit</h1>
     <a href="https://www.instagram.com/hawkedits_/?hl=en';">@hawkedits_ on Instagram<a>
@@ -87,6 +103,64 @@ img {margin-bottom: -7px}
   </div>
 </div>
 
+<!-- Body -->
+
+  <p style="text-align:center; font-size:30px; font-weight:bold;"> Purchase an edit by emailing hawkedits14@gmail.com</p>
+  <p style="text-align:center; font-size:20px; margin-bottom:5%">*Prices vary based on complexity* </p>
+
+  <div class="row" style="margin-bottom:5%">
+    <div class="column" style="margin-left:25%">
+       <p style="font-size:30px;">Single Edit
+    <br> Price: ~$15
+    </p>
+
+    </div>
+    <div class="column" style="margin-left:-25%">
+       <img src="5.jpeg" style="width:50%">
+    </div>
+  </div>
+    <div class="row" style="margin-bottom:5%">
+      <div class="column" style="margin-left:23%">
+	 <img src="25.jpeg" style="width:50%">
+    </div>
+    <div class="column" style="margin-left:-23%">
+      <p style="font-size:30px;">Top Schools Edit
+    <br> Price: ~$15
+    </p>
+    </div>
+    </div>
+      <div class="row" style="margin-bottom:5%">
+    <div class="column" style="margin-left:23%">
+        <p style="font-size:30px;">Jersey Swap Edit
+    <br> Price: ~$25
+    </p>
+    </div>
+    <div class="column" style="margin-left:-23%">
+       <img src="21.jpeg" style="width:50%">
+    </div>
+      </div>
+        <div class="row" style="margin-bottom:5%">
+    <div class="column" style="margin-left:23%">
+
+      <img src="22.jpeg" style="width:50%">
+    </div>
+    <div class="column" style="margin-left:-23%">
+            <p style="font-size:30px;">Team Edit
+    <br> Price: ~$50-100
+    </p>
+
+    </div>
+	</div>
+	  <div class="row" style="margin-bottom:5%">
+    <div class="column" style="margin-left:23%">
+       <p style="font-size:30px;">Jersey Swap Team Edit
+    <br> Price: ~$75-125
+    </p>
+    </div>
+    <div class="column" style="margin-left:-23%">
+       <img src="20.jpeg" style="width:50%">
+    </div>
+	  </div>
 
 
 <!-- End Page Content -->
@@ -95,7 +169,7 @@ img {margin-bottom: -7px}
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:50px" width="100%" height="auto"> 
   <i class="fa fa-instagram w3-hover-opacity">@hawkedits_</i>
-  <i class="fa fa-twitter w3-hover-opacity">@hawkedits</i>
+  <i class="fa fa-twitter w3-hover-opacity">@hawkedits14</i>
   <p class="w3-medium">Created by <a href="https://www.linkedin.com/in/jared-hawkins-7902101b3/" target="_blank" class="w3-hover-text-green">Jared Hawkins</a></p>
 </footer>
  
