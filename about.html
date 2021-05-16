@@ -79,6 +79,11 @@ img {margin-bottom: -7px}
   width: 50%;
 }
 
+.row{
+    width:1280px;
+    margin: 100px auto;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -89,6 +94,7 @@ img {margin-bottom: -7px}
   .column {
     width: 100%;
   }
+}
 </style>
 <body>
 
@@ -115,8 +121,8 @@ img {margin-bottom: -7px}
 </div>
 
 
-<div class="row" style="margin-bottom:5%">
-    <div class="column" style="margin-left:23%">
+<div class="row">
+    <div class="column">
        <p style="font-size:2.5vw;"> About Jaden Hawkins:
 	 <ul style="font-size:1.5vw">
 	   <li>Graphic designer since 2014</li>
@@ -126,10 +132,11 @@ img {margin-bottom: -7px}
 	 </ul>
     </p>
     </div>
-    <div class="column" style="margin-left:-23%">
-       <img src="logo.png" style="width:50%">
+    <div class="column">
+       <img src="logo.png" width="50%">
     </div>
-	  </div>
+</div>
+
 
 
 
